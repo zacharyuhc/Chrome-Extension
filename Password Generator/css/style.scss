@@ -153,7 +153,7 @@ $range-track-height: 2px !default;
 $range-label-width: 60px !default;
 
 #slider {
-	-webkit-appearance: none;
+	appearance: none;
 	width: calc(100% - (#{$range-label-width + 10px}));
 	height: $range-track-height;
 	border-radius: 5px;
@@ -165,7 +165,7 @@ $range-label-width: 60px !default;
 
 	// Range Handle
 	&::-webkit-slider-thumb {
-		-webkit-appearance: none;
+		appearance: none;
 		width: $range-handle-size;
 		height: $range-handle-size;
 		border-radius: 50%;
